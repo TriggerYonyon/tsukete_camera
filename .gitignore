@@ -151,6 +151,7 @@ celerybeat-schedule
 .env
 
 # virtualenv
+.venv
 .venv*
 venv*/
 ENV*/
@@ -254,3 +255,7 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 fabric.properties
+
+!tsukete_camera/images/*.jpg
+!tsukete_camera/results/*.jpg
+!tsukete_camera/models/*.pt
