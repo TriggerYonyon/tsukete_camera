@@ -256,6 +256,6 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
-!tsukete_camera/images/*.jpg
+!tsukete_camera/camera_images/*.jpg
 !tsukete_camera/results/*.jpg
 !tsukete_camera/models/*.pt
